@@ -114,6 +114,10 @@ function App() {
       <div className={`result ${isError ? 'error' : ''}`}>
         {result}
       </div>
+
+      <div className="footer">
+        Made by Shadab Ahmed
+      </div>
     </div>
   )
 }
